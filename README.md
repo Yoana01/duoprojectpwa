@@ -1,6 +1,6 @@
 # DuoProjectPWA
 
-PWA Duo Project - Yoana and Lazar
+PWA Duo Project - Yoana
 
 Please check the [Pressure cooker repository](https://git.fhict.nl/I444180/pressurecookerduo) as we are continuing working on the same idea
 
@@ -13,4 +13,3 @@ Please check the [Pressure cooker repository](https://git.fhict.nl/I444180/press
 
 ## Portfolios of creators:
 * [Yoana Churkina](https://git.fhict.nl/I455146/portfolio-yoana-churkina/-/wikis/home)
-* [Lazar Golomeev](https://git.fhict.nl/I444180/lazargolomeevportfolio/-/wikis/Home)
