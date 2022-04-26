@@ -1,0 +1,388 @@
+main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+#active {
+    left: 121px;
+    top: 106px;
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #EFEFEF;
+}
+
+#calendar {
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.days {
+    width: 335px;
+    height: 160px;
+    margin-left: 10px;
+    top: 149px;
+    padding-top: 15px;
+    padding-left: 0px;
+    padding-bottom: 15px;
+    border: 1px solid #00E091;
+    box-sizing: border-box;
+    border-radius: 2px;
+    align-items: center;
+    justify-items: center;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    /* font-size: 12px; */
+    width: 28px;
+    height: 28px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    /* margin-bottom: 5px;
+    margin-left: 5px;
+    padding-right: 15px; */
+    background: #313131;
+    color: #EFEFEF;
+    border-radius: 50%;
+    box-shadow: 15px 3px 4px 2px rgba(26, 26, 26, 0.25), inset 1px 0px 2px 2px rgba(26, 26, 26, 0.25);
+}
+
+.days li .active {
+    padding: 5px;
+    border: 1px solid #EFEFEF;
+    box-sizing: border-box;
+    border-radius: 50%;
+    color: #EFEFEF;
+}
+
+.days li #red {
+    padding: 5px;
+    color: #FF0000;
+
+}
+
+.days li .green {
+    padding: 5px;
+    color: #00784E;
+}
+
+.friends {
+    position: relative;
+    width: 355px;
+    height: 353px;
+    /* left: 13px; */
+    /* top: 439px; */
+    top: 40px;
+    background: rgba(51, 63, 58, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #EFEFEF;
+}
+
+#friends-title {
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #EFEFEF;
+}
+
+.f-place {
+    position: absolute;
+    width: 65px;
+    height: 214px;
+    left: 21px;
+    top: 130px;
+    background: rgba(0, 120, 78, 0.7);
+
+}
+
+.f-profile {
+    width: 55px;
+    height: 55px;
+    left: 23px;
+    top: 486px;
+}
+
+#fr-1 {
+    width: 55px;
+    height: 55px;
+    left: 23px;
+    top: 58px;
+    position: absolute;
+}
+
+.s-place {
+    position: absolute;
+    width: 63px;
+    height: 190px;
+    left: 86px;
+    top: 154px;
+    background: #00E091;
+}
+
+#fr-2 {
+    top: 86px;
+    left: 90px;
+    position: absolute;
+}
+
+.t-place {
+    position: absolute;
+    width: 62px;
+    height: 156px;
+    left: 149px;
+    top: 188px;
+    background: rgba(0, 120, 78, 0.7);
+
+}
+
+#fr-3 {
+    left: 157px;
+    top: 127px;
+    position: absolute;
+}
+
+.fo-place {
+    position: absolute;
+    width: 62px;
+    height: 112px;
+    left: 211px;
+    top: 232px;
+    background: rgba(0, 120, 78, 0.7);
+
+}
+
+#fr-4 {
+    left: 222px;
+    top: 173px;
+    position: absolute;
+}
+
+.fi-place {
+    position: absolute;
+    width: 62px;
+    height: 89px;
+    left: 273px;
+    top: 255px;
+    background: rgba(0, 120, 78, 0.7);
+}
+
+#fr-5 {
+    left: 278px;
+    top: 195px;
+    position: absolute;
+}
+
+.competition {
+    position: relative;
+    width: 360px;
+    height: 247px;
+    /* left: 10px; */
+    margin-bottom: 70px;
+    top: 80px;
+    background: rgba(51, 63, 58, 0.4);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+#compite {
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #EFEFEF;
+}
+
+.map {
+    position: absolute;
+    width: 204px;
+    height: 92px;
+    left: 45px;
+    top: 55px;
+    border: 35px solid rgba(0, 224, 145, 0.5);
+    border-radius: 35px;
+}
+
+#start {
+    position: absolute;
+    left: 160px;
+    top: 54px;
+    height: 36px;
+}
+
+#co-1 {
+    position: absolute;
+    margin-top: 187px;
+    margin-left: 157px;
+}
+
+#co-2 {
+    position: absolute;
+    margin-top: 187px;
+    margin-left: 227px;
+}
+
+#add {
+    margin-left: 210px;
+    margin-top: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+    width: 120px;
+    height: 40px;
+    background: #00784E;
+    border-radius: 7px;
+    color: #EFEFEF;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.content {
+    background-color: rgb(26, 26, 26, 0.94);
+    color: #EFEFEF;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 15px;
+    width: 85%;
+    height: 30%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.search-ico {
+    text-align: center;
+    margin-top: -216px;
+    margin-left: -165px;
+}
+
+.search-bar-friends {
+    position: absolute;
+    left: 38%;
+    top: 43px;
+}
+
+.search-bar-friends input {
+    font-family: Ubuntu;
+    border-radius: 5px;
+    background-color: #1A1A1A;
+    color: #efefef;
+    width: 150px;
+    margin-top: 85px;
+    margin-left: -30px;
+}
+
+.search-bar-friends input::placeholder {
+    color: #c5c5c5;
+}
+.friend-m{
+    position: relative;
+    border-top: #EFEFEF solid 1px;
+    border-bottom: #EFEFEF solid 1px;
+    width: 93%;
+    height: 85px;
+    top: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    left: 14px;
+}
+#p-friend{
+     color: #efefef;
+    position: absolute;
+    left: 25px;
+    /* text-align: center; */
+    top: 15px;
+}    
+#profileName{
+    color: #efefef;
+    position: absolute;
+    left: 105px;
+    /* text-align: center; */
+    top: 15px;
+}
+#addFriend{
+    width: 30px;
+    position: absolute;
+    height: 30px;
+    /* text-align: right; */
+    left: 230px;
+    top: 25px;
+}
+/* ;add-friends-icon {
+    position: absolute;
+    top: 108px;
+    right: 18%;
+}
+
+.add-friends-icon img {
+    width: 40px;
+    cursor: pointer;
+} */

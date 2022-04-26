@@ -1,0 +1,15 @@
+#background{
+    justify-content: center;
+    margin: auto;
+    margin-top: 100px;
+    height:200px;
+    width: 300px;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+    font-family: Poppins;
+    color: #efefef;
+    padding: 20px;
+    margin: 10px;
+}

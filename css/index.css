@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/* body {
+    background-color: #1A1A1A;
+    overflow-x: hidden;
+    font-family:'Poppins';
+    margin-left: 0%;
+    margin-right: 0%;
+}
+header{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+#logo{
+    width:250px;
+    height: 85px;
+} */
+
+.activity-menu{
+    display: flex;
+}
+
+#menu-item-with-left-padding {
+    padding-left: 25px;
+}
+
+
+
+/* 
+=============================================================================
+below is functionality menu
+=============================================================================
+*/
+
+/* .functionality-menu{
+    display: flex;
+    background-color: #313131;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+    height: 65px;
+    justify-content: space-evenly;
+}
+
+.functionality-menu-item {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.functionality-menu-image {
+    display: block;
+}
+
+.home-button {
+    padding: 0.5rem;
+    display: inline-block;
+    border-radius: 10rem;
+    background-color: #313131;
+    position: relative;
+    z-index: 1;
+    top: -25px;
+}
+
+.home-button-icon {
+    position: relative;
+    z-index: 1;
+    top: -5px;
+} */
+/* 
+=============================================================================
+below is main
+=============================================================================
+*/
+
+/* main{
+    margin-bottom: 100px;
+} */
+.top-pick-item {
+    display: flex;
+    position: relative;
+    height: 265px;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    color: whitesmoke;
+}
+
+.top-pick-image {
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.top-pick-text {
+    position: relative;
+}
+
+.list-header{
+    color: whitesmoke;
+}
+
+.scrollable-list{
+    display: flex;
+    overflow-y:hidden;
+    justify-content: flex-start;
+    height: 115px;
+}
+
+.your-list-item{
+    background-image: url("../images/pictures-for-thumbnails/Rectangle\ 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 160px;
+    height: auto;
+    box-sizing: border-box;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+/* 
+=============================================================================
+below is are images for challenges and workouts
+=============================================================================
+*/
+
+#free-1 {
+    background-image: url("../images/pictures-for-thumbnails/Rectangle\ 9.png");
+}
+#free-2 {
+    background-image: url("../images/pictures-for-thumbnails/Rectangle\ 8.png");
+}
+#free-3 {
+    background-image: url("../images/pictures-for-thumbnails/Rectangle\ 11.png");
+}
+#free-4 {
+    background-image: url("../images/pictures-for-thumbnails/Rectangle\ 15.png");
+}
+#free-5 {
+    background-image: url("../images/pictures-for-thumbnails/Rectangle\ 14.png");
+}
+
+#challenge-1 {
+    background-image: url("../images/pictures-for-thumbnails/Rectangle\ 2.png");
+    color: whitesmoke;
+}
+#challenge-2 {
+    background-image: url("../images/pictures-for-thumbnails/image\ 3.png");
+}
+#challenge-3 {
+    background-image: url("../images/pictures-for-thumbnails/image\ 7.png");
+}
+#challenge-4 {
+    background-image: url("../images/pictures-for-thumbnails/image\ 5.png");
+}
+#challenge-5 {
+    background-image: url("../images/pictures-for-thumbnails/Rectangle\ 5.png");
+}
+#challenge-6 {
+    background-image: url("../images/pictures-for-thumbnails/sprinting\ 1.png");
+}
+
+
+/* @media only screen and (min-width: 600px) and (max-width: 1200px){
+    .activity-menu{
+        margin-left: 650px;
+    }
+
+}
+@media only screen and (min-width: 1200px){
+    #logo{
+      margin-left: 630px;
+    }
+  }
+
+@media only screen and (min-width: 600px) and (max-width: 1200px){
+  #logo{
+    margin-left: 300px;
+  }
+} */

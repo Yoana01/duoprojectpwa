@@ -1,0 +1,14 @@
+#done {
+    width: 80px;
+    height: 80px;
+    top: 603px;
+    border-radius: 50%;
+    background: #00784E;
+    box-shadow: 15px 3px 4px rgba(26, 26, 26, 0.25), inset 1px 0px 2px rgba(26, 26, 26, 0.25);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #efefef;
+}

@@ -1,0 +1,66 @@
+.challenge-header {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+}
+.challenge-image {
+    display: flex;
+    height: 265px;
+    background-image: url("../images/pictures-for-thumbnails/sprinting\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+.challenge-description {
+    color: whitesmoke;
+    text-align: center;
+}
+.start-button {
+    border-radius: 10rem;
+    padding: 0.5rem;
+    background-color: rgba(0, 120, 78, 1);
+    font-family: inherit;
+    color: whitesmoke;
+    width: 5.5rem;
+    height: 5.5rem;
+    align-self:center;
+}
+.button-container {
+    align-self: center;
+    margin-bottom: 2rem;
+}
+.yes-no-button {
+    border-radius: 10rem;
+    padding: 0.5rem;
+    background-color: rgba(0, 120, 78, 1);
+    font-family: inherit;
+    color: whitesmoke;
+    width: 5rem;
+    margin: 2.5rem;
+    font-size: 1.2rem;
+}
+#wearable-technology {
+    width: 10rem;
+    align-self:center;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.stars{
+    display: flex;
+    align-self:center;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+#no-thank-you-button {
+    border-color: rgba(0, 120, 78, 1);
+    background-color: #1A1A1A;
+    border-radius: 5rem;
+    width: 7rem;
+    margin-top: 7rem;
+    font-family: inherit;
+    align-self: center;
+}

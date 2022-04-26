@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+    background-color: #1A1A1A;
+    overflow-x: hidden;
+    font-family: 'Poppins';
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+header {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+#logo {
+    width: 250px;
+    height: 85px;
+}
+
+#install-button {
+    visibility: hidden;
+}
+
+.active {
+    filter: invert(67%) sepia(97%) saturate(1430%) hue-rotate(105deg) brightness(93%) contrast(101%);
+}
+.home-button-icon-a{
+    filter: invert(99%) sepia(0%) saturate(1472%) hue-rotate(162deg) brightness(81%) contrast(90%);
+}
+/* 
+=============================================================================
+below is functionality menu
+=============================================================================
+*/
+
+main {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.functionality-menu {
+    display: flex;
+    background-color: #313131;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
+    justify-content: space-evenly;
+}
+
+.functionality-menu-item {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.functionality-menu-image {
+    display: block;
+}
+
+.home-button {
+    padding: 0.5rem;
+    display: inline-block;
+    border-radius: 10rem;
+    background-color: #313131;
+    position: relative;
+    z-index: 1;
+    top: -25px;
+}
+
+.home-button-icon {
+    position: relative;
+    z-index: 1;
+    top: -5px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+/* @media only screen and (min-width: 600px) and (min-width: 1200px){
+    #logo{
+      margin-left: 630px;
+    }
+  } */
+/* .back {
+    height: 72px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    top: 520px;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+} */

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenger</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/create.css" />
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <header>
+        <img src="./images/logo.png" alt="Logo - challenge yourself" id="logo" srcset="">
+    </header>
+    <main>
+        <div class="form">
+           
+            <div class="create">
+                <label for="create" class="label-text">Create:</label>
+                <input type="radio" id="workout" name="create" value="Workout" />
+                <label for="workout" class="options">Workout</label><br />
+                <div class="cr">
+                    <input type="radio" id="challenge" name="create" value="Challenge" />
+                    <label for="challenge" class="options">Challenge</label><br />
+                </div>
+            </div>
+        
+                <!-- <label class="container">Workout
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+                  <div class="cr">
+                    <label class="container">Challenge
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                  </label> -->
+                
+            
+            <br>
+
+            <input type="text" id="name" placeholder="Name your challenge/workout" /><br /> <br>
+
+            <label for="types" class="label-text">Choose Challenge type:</label>
+            <input type="radio" id="basic" name="type" value="Basic" />
+            <label for="type" class="options">Basic</label><br />
+            <div class="chal-type">
+                <input type="radio" id="challenge" name="type" value="Advanced" />
+                <label for="type" class="options">Advanced</label><br />
+            </div>
+            <br>
+            <label for="ac-type" class="label-text">Choose activity type:</label>
+            <input type="radio" id="strength" name="a-type" value="Strength" />
+            <label for="a-type" class="options">Strength</label><br />
+            <div class="types">
+                <input type="radio" id="yoga" name="a-type" value="Yoga" />
+                <label for="a-type" class="options">Yoga</label><br />
+                <input type="radio" id="endurance" name="a-type" value="Endurance" />
+                <label for="a-type" class="options">Endurance</label><br />
+                <input type="radio" id="others" name="a-type" value="others" />
+                <label for="a-type" class="options">Others</label><br />
+            </div>
+            <br>
+            <label for="proof" class="label-text">Choose way of proof:</label>
+            <input type="checkbox" id="watch" name="proof" value="watch" />
+            <label for="proof" class="options">Smart watch</label><br />
+            <div class="pro">
+                <input type="checkbox" id="picture" name="proof" value="Picture" />
+                <label for="proof" class="options">Picture</label><br />
+                <input type="checkbox" id="location" name="proof" value="location" />
+                <label for="proof" class="options">Location</label><br />
+            </div>
+            <br>
+            <label for="desc" class="label-text">Add description:</label>
+            <textarea id="desc" name="desc" rows="20" cols="30">
+            Write short description
+        </textarea>
+            <br /><br>
+
+            <label for="upload" class="label-text">Upload:</label>
+            <label for="image_input" class="btn">
+                <img src="./images/Upload.png" alt="upload-button"></label>
+      
+                  <input type="file" id="image_input" name="file">
+                  <div id="output"></div>
+                  <br /><br>
+            <label for="price" class="label-text">Choose price:</label>
+            <input type="number" id="price" /><br /><br>
+
+            <a href="index.html"><button class="cancel">Cancel</button></a>
+           <a href="challenge-created.html"> <button class="uploading">Upload</button></a>
+        </div>
+    </main>
+
+    <div class="functionality-menu">
+        <a class="functionality-menu-item" href="portfolio.html">
+            <img class="functionality-menu-image" src="./images/menu-icons/Person.svg" alt="">
+        </a>
+        <a class="functionality-menu-item" href="statistics.html">
+            <img class="functionality-menu-image" src="./images/menu-icons/Personal Growth.svg" alt="">
+        </a>
+
+        <div class="home-button-container">
+            <a class="home-button" href="index.html">
+                <img class="home-button-icon" src="./images/menu-icons/Home.svg" alt="">
+            </a>
+        </div>
+        
+        <a class="functionality-menu-item" href="create.html">
+            <img class="active" src="./images/menu-icons/Plus +.svg" alt="">
+        </a>
+
+        <a class="functionality-menu-item" href="achievements.html">
+            <img class="functionality-menu-image" src="./images/menu-icons/Medal.svg" alt="">
+        </a>
+    </div>
+    <script src="./JavaScript/create.js"></script>
+</body>
+
+</html>

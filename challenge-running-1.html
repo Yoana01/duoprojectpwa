@@ -1,0 +1,85 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="./css/challenge-running-1.css" />
+    <script src="./JavaScript/challenge.js"></script>
+  </head>
+  <body>
+    <div id="map"></div>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvd2glOxHr6cUwm0vGpAwVv3k5yjRMEb8&callback=initMap"></script>
+  </body>
+</html> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenger</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/challenge-running-1.css">
+    <link rel="manifest" href="manifest.json">
+    <script src="./JavaScript/challenge.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="./images/logo.png" alt="Logo - challenge yourself" id="logo" srcset="">
+    </header>
+    <main>
+        <div id="map"></div>
+        <div class="distance">
+            <p id="dis">Distance:</p>
+            <p id="kilometers">0m/5km</p>
+        </div>
+        <div class="time">
+            <p id="time-title">Time:</p>
+            <p id="time-past">1min</p> 
+            <img src="./images/Sand Timer.png" id="timer" alt="timer-icon">
+        </div> 
+        <button id="location">
+            <img src="./images/Place Marker.png" id="icon" alt="sharing location-icon">  
+            Share your location
+        </button>
+        <a href="well-done.html">
+            <button id="done">
+                Done
+            </button>
+        </a>
+
+    </main>
+
+     <div class="functionality-menu">
+        <a class="functionality-menu-item" href="portfolio.html">
+            <img class="functionality-menu-image" src="./images/menu-icons/Person.svg" alt="">
+        </a>
+        <a class="functionality-menu-item" href="statistics.html">
+            <img class="functionality-menu-image" src="./images/menu-icons/Personal Growth.svg" alt="">
+        </a>
+
+        <div class="home-button-container">
+            <a class="home-button" href="index.html">
+                <img class="home-button-icon-a" src="./images/menu-icons/Home.svg" alt="">
+            </a>
+        </div>
+        
+        <a class="functionality-menu-item" href="create.html">
+            <img class="functionality-menu-image" src="./images/menu-icons/Plus +.svg" alt="">
+        </a>
+
+        <a class="functionality-menu-item" href="achievements.html">
+            <img class="functionality-menu-image" src="./images/menu-icons/Medal.svg" alt="">
+        </a>
+    </div>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvd2glOxHr6cUwm0vGpAwVv3k5yjRMEb8&callback=initMap"></script>
+</body>
+
+</html>

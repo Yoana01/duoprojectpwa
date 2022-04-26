@@ -1,0 +1,46 @@
+<html>
+
+<head>
+  <link rel="manifest" href="manifest.json">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="UTF-8">
+  <title>Challenger</title>  
+  <link rel="stylesheet" href="./css/style.css" type="text/css">
+  <link rel="stylesheet" href="./css/offline.css" type="text/css">
+  <script src="service-worker.js"></script>
+</head>
+<body>
+  <header>
+    <img src="./images/logo.png" alt="Logo - challenge yourself" id="logo" srcset="">
+</header>
+  <main>
+    <img src="./images/offline background.gif" alt="background gif for offline" id="background">
+    <div></div>
+    <p>Unfortunately, you are offline, so you can see only your profile, statistics and achievements.</p> 
+  </main>
+  <div class="functionality-menu">
+    <a class="functionality-menu-item" href="portfolio.html">
+        <img class="functionality-menu-image" src="./images/menu-icons/Person.svg" alt="">
+    </a>
+    <a class="functionality-menu-item" href="offline.html">
+        <img class="functionality-menu-image" src="./images/menu-icons/Personal Growth.svg" alt="">
+    </a>
+
+    <div class="home-button-container">
+        <a class="home-button" href="offline.html">
+            <img class="home-button-icon-a" src="./images/menu-icons/Home.svg" alt="">
+        </a>
+    </div>
+    
+    <a class="functionality-menu-item" href="offline.html">
+        <img class="functionality-menu-image" src="./images/menu-icons/Plus +.svg" alt="">
+    </a>
+
+    <a class="functionality-menu-item" href="offline.html">
+        <img  id="active" src="./images/menu-icons/Medal.svg" alt="">
+    </a>
+</div>
+  <script src="JavaScript/script.js" type="text/javascript"></script>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+main {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.form {
+  color: #efefef;
+  position: relative;
+  /* left: 25px; */
+  align-content: center;
+  justify-content: center;
+}
+
+.label-text {
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.options {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+
+
+#name {
+  background-color: transparent;
+  align-content: center;
+  width: 218px;
+  height: 34px;
+  border: 1px solid #00E091;
+  box-sizing: border-box;
+  border-radius: 2px;
+  color: #efefef;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.cr {
+  margin-left: 58px;
+}
+
+.types {
+  margin-left: 165px;
+}
+
+.chal-type {
+  margin-left: 185px;
+}
+
+.pro {
+  margin-left: 165px;
+}
+
+#desc {
+  background-color: transparent;
+  max-width: 250px;
+  min-height: 50px;
+  max-height: 250px;
+  left: 26px;
+  top: 654px;
+  border: 1px solid #00E091;
+  box-sizing: border-box;
+  border-radius: 2px;
+  resize: vertical;
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 18px;
+  color: #efefef
+}
+
+#price {
+  background-color: transparent;
+  width: 104px;
+  height: 22px;
+  border: 1px solid #00E091;
+  color: #efefef;
+  box-sizing: border-box;
+  border-radius: 2px;
+  margin-left: 35px;
+}
+
+.cancel {
+  width: 86px;
+  height: 32px;
+  border: 2px solid #00784E;
+  box-sizing: border-box;
+  border-radius: 7px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #efefef;
+  background-color: transparent;
+}
+
+.uploading {
+  width: 86px;
+  height: 32px;
+  background: #00784E;
+  border-radius: 7px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  margin-left: 105px;
+  color: #efefef;
+}
+#image_input {
+  visibility: hidden;
+}
+#output{
+  width:280px;
+  height:125px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenger</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/statistics.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <header>
+        <img src="./images/logo.png" alt="Logo - challenge yourself" id="logo" srcset="">
+    </header>
+    <main>
+        <div class="active-days">
+            <p id="active">Active days</p>
+            <ul class="days">
+                <li><span class="green">1</span></li>
+                <li><span class="green">2</span></li>
+                <li><span class="green">3</span></li>
+                <li><span class="green">4</span></li>
+                <li><span class="green">5</span></li>
+                <li><span class="green">6</span></li>
+                <li><span class="green">7</span></li>
+                <li><span id="red">8</span></li>
+                <li><span class="green">9</span></li>
+                <li><span class="active">10</span></li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
+            </ul>
+        </div>
+        <div class="friends">
+            <button id="add">Add friend +</button>
+            <p id="friends-title">Friends</p>
+            <img src="./images/profiles/wonan-1.png" id="fr-1" alt="friend-1">
+            <div class="f-place">1</div>
+            <img src="./images/profiles/profile.png" id="fr-2" alt="person-position">
+            <div class="s-place">2</div>
+            <img src="./images/profiles/Ellipse 35.png" id="fr-3" alt="friend-2">
+            <div class="t-place">3</div>
+            <img src="./images/profiles/Ellipse 36.png" id="fr-4" alt="friend-3">
+            <div class="fo-place">4</div>
+            <img src="./images/profiles/Ellipse 37.png" id="fr-5" alt="friend-4">
+            <div class="fi-place">5</div>
+        </div>
+        <div class="competition">
+            <p id="compite">Do the challenge first</p>
+            <div class="map"></div>
+            <img src="./images/start.png" id="start" alt="">
+            <img src="./images/profiles/profile.png" id="co-1" alt="person-position">
+            <img src="./images/profiles/wonan-1.png" id="co-2" alt="friend-1">
+        </div>
+        <!-- The Modal
+      <!-- Modal content -->
+        <div id="adding" class="modal">
+            <div class="content">
+                <span class="close">&times;</span>
+            </div>
+            <div class="search-ico">
+                <img src="./images/Search Client.svg" />
+            </div>
+            <div class="search-bar-friends">
+                <input type="text" placeholder="Enter name..." list="searchForFriends" />
+                <datalist id="searchForFriends">
+                    <option value="Peter"></option>
+                    <option value="George"></option>
+                </datalist>
+            </div>
+            <div class="friend-m">
+                <img src="./images/profiles/Ellipse 35.png" alt="friend-Peter" id="p-friend" >
+                <p id="profileName">Peter</p>
+                <img id="addFriend" src="./images/add-user.png" alt="Add user icon" width="45" height="45" />
+            </div>
+        </div>
+        </div>
+        </div>
+    </main>
+
+    <div class="functionality-menu">
+        <a class="functionality-menu-item" href="portfolio.html">
+            <img class="functionality-menu-image" src="./images/menu-icons/Person.svg" alt="">
+        </a>
+        <a class="functionality-menu-item" href="statistics.html">
+            <img class="active" src="./images/menu-icons/Personal Growth.svg" alt="">
+        </a>
+        <div class="home-button-container">
+            <a class="home-button" href="index.html">
+                <img class="home-button-icon" src="./images/menu-icons/Home.svg" alt="">
+            </a>
+        </div>
+
+        <a class="functionality-menu-item" href="create.html">
+            <img class="functionality-menu-image" src="./images/menu-icons/Plus +.svg" alt="">
+        </a>
+
+        <a class="functionality-menu-item" href="achievements.html">
+            <img class="functionality-menu-image" src="./images/menu-icons/Medal.svg" alt="">
+        </a>
+    </div>
+    <script src="./JavaScript/statistics.js"></script>
+</body>
+
+</html>
